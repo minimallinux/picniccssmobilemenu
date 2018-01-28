@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?dipnwf');
+  src:  url('../fonts/icomoon.eot?dipnwf#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?dipnwf') format('truetype'),
+    url('../fonts/icomoon.woff?dipnwf') format('woff'),
+    url('../fonts/icomoon.svg?dipnwf#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\e9bd";
+} 
+.burger i {
+font-size: 30px;
+color: whitesmoke;
+padding: 0 2px;
+border:  solid 1px whitesmoke;
+border-radius: 5px;
+}
+.burger i:hover,
+.burger i:focus  {
+color: darkgray;
+border-color: darkgray;
+}
+.logo {
+width: 130px;
+}
+.topnav {
+background: rgb(23, 32, 42);
+border-bottom:  solid 4px darkslategray;
+}
+.menu {
+background: rgb(23, 32, 42)!important;
+}
+.menu a {
+color: whitesmoke;
+}
+/*Style for dektop view*/
+@media only screen and (min-width : 956px) {
+.menu a:hover,
+.menu a:focus {
+color: darkgray;
+}
+}
+/*Style mobile view*/
+@media only screen and (max-width : 955px) {
+.menu a:hover,
+.menu a:focus {
+background: whitesmoke;
+color: black;
+}
+}
+
